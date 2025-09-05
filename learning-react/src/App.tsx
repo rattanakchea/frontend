@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./components/Home";
 import Todo from "./components/Todo";
+import LoginForm from "./components/Login-Form/Login-Form";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,12 +17,14 @@ function App() {
           <nav>
             <div className="menu">
               <Link to="/home">Home</Link> &nbsp; | <Link to="/todo">Todo</Link>
+              | <Link to="/login-form/Login-Form">Login Form</Link>
             </div>
           </nav>
 
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/todo" element={<Todo />} />
+            <Route path="/login-form/Login-Form" element={<LoginForm />} />
 
             {/* Add more routes here */}
           </Routes>

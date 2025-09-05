@@ -10,5 +10,6 @@ Currently, two official plugins are available:
 ## Resources
 
 - React Todo App: https://www.greatfrontend.com/interviews/study/gfe75/questions/user-interface/todo-list/solution
-- Othere React Projects for ideas
+- Other React Projects
   - Flashcard: https://github.com/sashashreyder/flashcards-business/tree/main#
+- Form Snippet Project: https://github.com/sashashreyder/Forms-Snippets/tree/main
